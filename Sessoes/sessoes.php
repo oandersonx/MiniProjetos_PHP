@@ -1,15 +1,12 @@
 <?php
     session_start();
-    require("header.php");
+    //require("header.php");
 
-    if ($_SESSION['mensagem']){
-        echo $_SESSION['mensagem'];
-        $_SESSION['mensagem'] = '';
-    }
+    
     
 ?>
 
-<form method="POST" action="recebedor.php">
+<form method="POST" action="home.php">
     <label> 
         Nome: <br/>
         <input type="text" name="nome"/>
@@ -31,4 +28,4 @@
     <br/>
     <br/>
 
-    <input type="submit" value="Submit">
+    <input type="submit" value="Iniciar sessão">

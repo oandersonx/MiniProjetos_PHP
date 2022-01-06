@@ -24,4 +24,3 @@
 <input type="submit" name="sobre" value='Sobre' id="btn_sobre" onClick="location.href='sobre.php'">
 <br/>
 <a href="PHPSession2/login.php">Link Aqui</a>
-<a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
