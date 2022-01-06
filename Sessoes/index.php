@@ -33,6 +33,7 @@
     <br/>
 
     <input type="submit" value="Iniciar sessão">
+</form>
 
 
     <br/><br/><a href='../index.php'> Menu Principal</a>
