@@ -18,3 +18,4 @@
 
 <br/><a href='sessoes.php'> <- Retornar</a>
 
+<br/><br/><a href='../index.php'> Menu Principal</a>
