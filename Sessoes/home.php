@@ -7,9 +7,11 @@
     $idade = filter_input(INPUT_POST, "idade", FILTER_VALIDATE_INT); 
 
     if ($nome && $email && $idade){
-        echo 'Olá, '.$nome;
+        echo 'Olá, '."<b>".$nome."</b>".', seu email é '."<b>".$email."</b>".' e sua idade é '."<b>".$idade."<b>";
+        echo "<br/><i>"."Estes dados vieram através de sessões.";
     }
 
-
 ?>
+
+<br/><a href='sessoes.php'>Retornar!</a>
 
