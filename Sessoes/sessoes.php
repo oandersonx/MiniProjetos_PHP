@@ -2,6 +2,10 @@
     session_start();
     //require("header.php");
 
+    if($_SESSION['mensagem_erro']){
+        echo $_SESSION['mensagem_erro'];
+    }
+    $_SESSION['mensagem_erro'] = ''; // Para limpar ao atualizar a página.
     
     
 ?>
