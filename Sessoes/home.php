@@ -11,11 +11,11 @@
         echo "<br/><i>"."Estes dados foram armazenados em uma sessão e exibidos aqui."."</i>";
     }else{
        $_SESSION['mensagem_erro'] = 'Digite os dados corretamente!';
-       header("Location: sessoes.php");
+       header("Location: index.php");
     }
 
 ?>
 
-<br/><a href='sessoes.php'> <- Retornar</a>
+<br/><a href='index.php'> <- Retornar</a>
 
 <br/><br/><a href='../index.php'> Menu Principal</a>
