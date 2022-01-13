@@ -11,4 +11,6 @@
 
 ?>
 
-<a href='login.php'>Sair</a>
+<a href='login.php'>Sair</a></h2>
+
+<br/><br/><a href='../index.php'> Menu Principal</a>

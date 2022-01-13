@@ -10,3 +10,5 @@ echo "<h1>".'Qual o seu nome?'."</h1><br/>";
 <input type="submit" value="Entrar">
 
 </form>
+
+<br/><br/><a href='../index.php'> Menu Principal</a>
